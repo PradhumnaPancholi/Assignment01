@@ -20,4 +20,11 @@ router.get('/projects', function(req, res, next) {
 router.get('/services', function(req, res, next) {
   res.render('services');
 });
+
+/*Contact me page*/
+router.get('/contact', function(req, res, next) {
+  res.render('contact');
+});
+
+
 module.exports = router;
