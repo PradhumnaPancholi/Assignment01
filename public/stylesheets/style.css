@@ -9,3 +9,9 @@ a {
 .header {
   height: 30vh;
 }
+
+/*for image in about me*/
+.headshot {
+  height: 300px;
+  margin: 5%;
+}
