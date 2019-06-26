@@ -1,9 +1,16 @@
 extends layout
 
 block content
-    //form//
-    form.text-center(action="")
-        input(type="text", placeholder="name")
-        input(type="text", placeholder="email")
-        input(type="textarea", placeholder="message")
-        button Submit
+    //Pradhumna Pancholi, 200382578//
+    //A view layer/form to contact author//
+    form
+        div.form-group
+            label Email address
+            input.form-control
+        div.form-group
+            label Name
+            input.form-control
+        div.form-group
+            label(for="") Message
+            input.form-control   
+        button.text-center Submit         
